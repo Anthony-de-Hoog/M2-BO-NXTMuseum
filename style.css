@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 250%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 90%;
+}
+
+article{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 40px;
+}
