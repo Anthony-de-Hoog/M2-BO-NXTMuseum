@@ -11,36 +11,57 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a class="logo" href="#logo"><img src="Foto's/Logo.png" alt="Logo van NXT Museum"></a>
         <a href="#history">Over ons en onze geschiedenis</a>
         <a href="#tentoon">Tentoonstelling</a>
         <a href="#reviews">Reviews</a>
         <a href="#tickets">Tickets</a>
         <a href="#taal">NL/EN</a>
+        <a onclick="myFunction()">☾</a>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
     </header>
     <article>
 
         <h1>NXT Museum</h1>
 
-        <h3>Over ons en onze geschiedenis</h3>
+        <h3 id="history">Over ons en onze geschiedenis</h3>
 
         <p>
-            Hier komt nog tekst
+            Nxt Museum, 
+            de jonge ondernemer Merel van Helsdingen wou grootschalige kunstinstallaties exposeren, 
+            die worden ontwikkeld vanuit interdisciplinaire samenwerkingen tussen gevestigde en opkomende kunstenaars, 
+            ontwerpers, 
+            technici, 
+            muzikanten en wetenschappers. 
+            Op 29 augustus in 2020 opende het museum voor het eerst hun deuren in een productiestudio in het hart van Amsterdam. 
+            Amsterdam is een die zich bij uitstek leent voor het ontdekken, 
+            maken en tentoonstellen van mediakunst, 
+            dus perfect voor een museum als dit. 
+            Deze vorm van kunst experimenteerde met technologische mogelijkheden en toepassingen; 
+            dynamisch en niet gebonden aan een vorm. 
+            Deze ruimte zou een broedplaats voor deze vorm van kunst aanbieden; 
+            een plek waar verschillende kunststromingen en wetenschappen samenkomen en tentoongesteld kunnen worden.
         </p>
 
-        <tentoonstelling>
+        <tentoonstelling id="tentoon">
             <h3>Tentoonstelling</h3>
             <p>Hier komen dan nog foto's met tekst eronder</p>
         </tentoonstelling>
 
-        <reviews>
+        <reviews id="reviews">
             <h3>Reviews</h3>
             <p>Hier komen nog de reviews</p>
         </reviews>
 
 
     </article>
+    <a class="top" href="#header">↑</a>
     <footer>
         <p>Hier komt de foot notes.</p>
     </footer>
