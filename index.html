@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>dev NXT Museum</title>
+    <script src="app.js" defer></script>
 
 </head>
 
-<body>
+<body id="js--body">
     <header id="header">
         <a class="logo" href="#logo"><img src="Foto's/Logo.png" alt="Logo van NXT Museum"></a>
         <a href="#history">Over ons en onze geschiedenis</a>
-        <a href="#tentoon">Tentoonstelling</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#tickets">Tickets</a>
-        <a href="#taal">NL/EN</a>
-        <a onclick="dark()">☾</a>
+        <a href="#tentoonstelling">Tentoonstelling</a>
+        <a href="#reviewz">Reviews</a>
+        <button id="js--tickets" class="button">Tickets</button>
+        <a class="taal" href="Engels.html">EN</a>
+        <a class="moon" onclick="dark()">☾</a>
         <script>
             function dark() {
                 var element = document.body;
@@ -26,11 +27,21 @@
             }
         </script>
     </header>
+    <nav id="js--nav" class="ERROR">
+        <ul class="ERRORlist">
+            <li class="ERRORlistItem">ERROR</li>
+            <li class="ERRORlistItem">TICKET PAGINA BESTAAT NOG NIET</li>
+            <li class="ERRORlistItem">GA AUB TERUG</li>
+            <li class="ERRORlistItem">
+                <a href="">Ga terug</a>
+            </li>
+        </ul>
+    </nav>
     <article>
 
         <h1>NXT Museum</h1>
 
-        <h3 class="history">Over ons en onze geschiedenis</h3>
+        <h3 id="history">Over ons en onze geschiedenis</h3>
 
         <p class="hi">
             Nxt Museum,
@@ -51,61 +62,126 @@
             <img src="Foto's/IMG_8445.jpg" alt="lichtjes">
         </p>
 
+        <h3 id="tentoonstelling" class="a">Tentoonstelling</h3>
         <section class="tentoon">
-            <h3>Tentoonstelling</h3>
-            <p>Hier komen dan nog foto's met tekst eronder</p>
+            <ul>
+                <li>
+                    <h4>Living Room</h4>
+                    <img src="Foto's/IMG_8443.jpg" alt="Living Room met Tyler">
+                    <p>
+                        De Living Room installatie duikt in het concept van ruimte als een levende entiteit:
+                        een voortdurende verschuivende architectonische wereld die over een eigen waarnemingsvermogen
+                        beschikt.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Presence and Erasure</h4>
+                    <img src="Foto's/IMG_8427.jpg" alt="">
+                    <p>
+                        Het digitale kunstwerk Presence and Erasure door Random International maakt tijdelijke
+                        portretten
+                        van voorbijgangers.
+                        Zonder de deelname van de voorbijkomende menselijke lichamen is het canvas leeg.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Dimensional Sampling</h4>
+                    <img src="Foto's/IMG_8451.jpg" alt="">
+                    <p>
+                        Het werk verkent de
+                        wereldwijde opkomst van QR-codes, zoals in China waar de codes volledig geïntegreerd zijn in het
+                        dagelijkse leven. Van het kopen van producten tot het identificeren van senioren.
+                    </p>
+                </li>
+            </ul>
+
+
         </section>
 
-        <h3 class="a">Reviews</h3>
+        <section class="blacksheep">
+            <ul>
+                <li>
+                    <h4>Life in our Minds: Motherflock III</h4>
+                    <img src="Foto's/IMG_8438.jpg" alt="">
+                    <p>
+                        Met Motherflock presenteert Random International een virtuele zwerm van origami-achtige
+                        "vogeloïde"
+                        objecten.
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Swarm Study XIII</h4>
+                    <img src="Foto's/IMG_8434.jpg" alt="">
+                    <p>
+                        Geïnspireerd op de zelforganiserende bewegingen van groepen in de natuur. Scholen vissen,
+                        zwermen vogels, heeft Random International in de loop van hun samenwerkingen "swarm study"
+                        kunstwerken ontwikkeld.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <h3 id="reviewz" class="a">Reviews</h3>
         <section class="reviews">
 
             <ul>
-                <h4>Niet boeiend</h4>
-                <p>
-                    Mijn geld was het dus absoluut niet waard, 
-                    ik verwachte zoveel meer hier van je vraagt je gewoon letterlijk af wtf doe ik hier... 
-                    het gaat nergens over, 
-                    of je moet je heel erg verdiepen in alles. 
-                    Het was in iedergeval niet mijn ding. 
-                    Ook zijn het maar 7 kamers en daar ben je dus zo doorheen.
-                    
-                </p>
-                <p class="star">★ ☆ ☆ ☆ ☆ </p>
-            </ul>
-            <ul>
-                <h4>Waar kijk ik nou naar?</h4> 
-                <p> 
-                    Ik wist van te voren niet zo goed wat ik kon verwachten.  
-                    Ik had plaatjes van de samsung zaal gezien en zag er wel tof uit.  
-                    Ik dacht toch wel echt veel waar kijk ik nou naar?  
-                    Die tussenzalen met die alien, vreemd.  
-                    En zaal met snapchat filters.  
-                    En zaal om te playstationen.  
-                    En een paar zalen met schermen met digitale videos.  
-                    Ik vond de samsung zaal het meest vermakelijk maar ik kan het niet echt kunst noemen   
-                </p> 
-                <p class="star">★ ★ ★ ☆ ☆</p>
-            </ul>
-            <ul>
-                <h4>Bezoek met 1-jarig kind: groot succes!</h4> 
-                <p class="correctie"> 
-                    Ging naar dit museum op een vrijdag,  
-                    met mijn zoontje van 1 jaar.  
-                    Hij heeft een uur lang geen piep gegeven was gefascineerd door alle lampjes,  
-                    schermen en bewegende kunstwerken.  
-                    Daardoor kon ik zelf ook helemaal van de tentoonstelling genieten!  
-                    Hele leuke ervaring gehad.  
-                    Bedankt Nxt Museum! 
-                </p>
-                <p class="star">★ ★ ★ ★ ★</p> 
+                <li>
+                    <h4>Niet boeiend</h4>
+                    <p>
+                        Mijn geld was het dus absoluut niet waard,
+                        ik verwachte zoveel meer hier van je vraagt je gewoon letterlijk af wtf doe ik hier...
+                        het gaat nergens over,
+                        of je moet je heel erg verdiepen in alles.
+                        Het was in iedergeval niet mijn ding.
+                        Ook zijn het maar 7 kamers en daar ben je dus zo doorheen.
 
- 
+                    </p>
+                    <p class="star">★ ☆ ☆ ☆ ☆ </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Waar kijk ik nou naar?</h4>
+                    <p>
+                        Ik wist van te voren niet zo goed wat ik kon verwachten.
+                        Ik had plaatjes van de samsung zaal gezien en zag er wel tof uit.
+                        Ik dacht toch wel echt veel waar kijk ik nou naar?
+                        Die tussenzalen met die alien, vreemd.
+                        En zaal met snapchat filters.
+                        En zaal om te playstationen.
+                        En een paar zalen met schermen met digitale videos.
+                        Ik vond de samsung zaal het meest vermakelijk maar ik kan het niet echt kunst noemen
+                    </p>
+                    <p class="star">★ ★ ★ ☆ ☆</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4>Bezoek met 1-jarig kind: groot succes!</h4>
+                    <p class="correctie">
+                        Ging naar dit museum op een vrijdag,
+                        met mijn zoontje van 1 jaar.
+                        Hij heeft een uur lang geen piep gegeven was gefascineerd door alle lampjes,
+                        schermen en bewegende kunstwerken.
+                        Daardoor kon ik zelf ook helemaal van de tentoonstelling genieten!
+                        Hele leuke ervaring gehad.
+                        Bedankt Nxt Museum!
+                    </p>
+                    <p class="star">★ ★ ★ ★ ★</p>
+                </li>
+
             </ul>
         </section>
 
 
     </article>
-    <a class="top" href="#header">↑</a>
+    <a id="js--top" class="top" href="#header">↑</a>
     <footer>
         <article>
             <section>
@@ -128,10 +204,10 @@
             <section>
                 <h3>contact gegevens</h3>
                 <ul>
-                    <li><a href="https://www.instagram.com/nxtmuseum/">Instragram</a></li>
-                    <li><a href="https://www.youtube.com/channel/UC1Afhs22rJqLfblV4GOpFTA">YouTube</a></li>
-                    <li><a href="https://www.tiktok.com/@nxtmuseum?">TikTok</a></li>
-                    <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fnxtmuseum">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/nxtmuseum/">Instragram  🡥</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1Afhs22rJqLfblV4GOpFTA">YouTube  🡥</a></li>
+                    <li><a href="https://www.tiktok.com/@nxtmuseum?">TikTok  🡥</a></li>
+                    <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fnxtmuseum">Twitter  🡥</a></li>
                 </ul>
             </section>
         </article>
